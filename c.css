@@ -1,0 +1,90 @@
+/*长沙小区网CSS*/
+body{font-size:12px;margin:auto}
+a{color:#07519A;text-decoration:none}
+a:hover{color:#c30;text-decoration:underline}
+p,ul,ol,li,form{margin:0;padding:0;list-style:none}
+img{border:0}
+table{border-collapse:collapse}
+#mlxqtjxx{margin-left:5px;margin-top:5px;background:url(/images/zxtop10.gif) no-repeat;padding-top:27px;line-height:150%;padding-left:5px;height:220px}
+#sfhpxh{padding-left:100px;border:1px solid #82BDD7;padding-top:23px;margin-bottom:5px;background:url(/images/sfb.jpg) no-repeat;height:45px;width:700px}
+#sfspxh{line-height:220%;margin:7px;padding-left:20px}
+#mlhousezxxx{margin:5px}
+#xqxxlb{margin:10px}
+/*头部*/
+#headerxh{background:url(/images/headxhbg.jpg) repeat;height:80px}
+#logoxh{float:left;width:200px}
+#bannerxh{float:left;margin-left:12px;margin-top:10px}
+#searchxh{float:right;margin-top:10px;margin-right:10px}
+/*导航*/
+#menuaxh{background:url(/images/menubg.gif) repeat;height:36px}
+#menuaxh li{float:left;margin-left:15px;margin-top:10px;color:#359AFF;font-weight:bold;font-size:14px}
+#menuaxh li a{color:#fff}
+#menuaxh li a:hover{color:#ffff00}
+/*主体*/
+#xqlbxh{margin-left:11px;margin-top:3px}
+#mrnav{background-image:url(/images/title_bg.gif);height:25px;padding-left:15px;line-height:220%;margin-bottom:5px;border:1px solid #82BDD7;width:785px}
+#mainleftxh{float:left;width:190px}
+#mldhxh{background-image:url(/images/lmenu1.gif);width:182px;height:31px;margin-top:5px;margin-left:5px;line-height:250%;text-align:center;color:#fff;font-weight:bold}
+#mlxqjsfb{background-image:url(/images/lmenu2.gif);width:182px;height:31px;margin-left:5px;line-height:250%;text-align:center}
+#mlxqjsfb a{color:#fff;font-weight:bold}
+.glossymenu{margin:0px 0;margin-left:5px;padding:0;border:1px solid #359AFF;border-bottom-width:0;width:180px}
+.glossymenu li a{background:white url(/images/glossyback.gif) repeat-x bottom left;font:bold;color:white;display:block;padding-left:15px;height:25px;line-height:200%}
+.glossymenu li a:hover{background-image:url(/images/glossyback2.gif)}
+#mainrightxh{float:left;margin-left:5px;margin-top:5px}
+#mrmenuxh li{float:left;width:90px;background-image:url(/images/daohang1.gif);height:25px;line-height:230%;margin-left:10px;margin-bottom:5px}
+#mrmenuxh li a{padding-left:5px}
+#mrleftxh{float:left;width:365px;height:180px;padding-right:10px}
+#mrrightxh{float:left}
+#mfleftxh{float:left;width:400px;padding-right:15px;margin-top:5px}
+#mfleftxh li{float:left;line-height:120%;margin:4px}
+#uchomexh{height:35px;line-height:220%;background:url(/images/bmfwxh.jpg) no-repeat;padding-left:10px;font-size:14px;color:#ffffff;font-weight:bold}
+#mfrightxh{float:left;width:380px;margin-top:5px}
+#mfrightxh li{float:left;width:58px;margin-left:15px;margin-top:5px}
+#bmfwxh{height:35px;line-height:220%;background:url(/images/bmfwxh.jpg) no-repeat;padding-left:10px;font-size:14px;color:#FFF;font-weight:bold}
+/*底部*/
+#footerxh{background:url(/images/footerbg.gif) repeat;border-top:2px solid #9BCDFF;height:65px;padding-left:10px;padding-top:10px;margin-top:7px;line-height:170%}
+#copyxh{display:none}
+/*hdm*/
+.sec1{BORDER-RIGHT:gray 1px solid;BORDER-LEFT:#ffffff 1px solid;CURSOR:hand;COLOR:#000000;BACKGROUND:#C8E3FF}
+.sec2{BORDER-RIGHT:gray 1px solid;FONT-WEIGHT:bold;BORDER-LEFT:#ffffff 1px solid;CURSOR:hand;COLOR:#000000;BACKGROUND:#9BCDFF}
+.main_tab{BORDER-RIGHT:gray 1px solid;BORDER-LEFT:#ffffff 1px solid;COLOR:#000000;BORDER-BOTTOM:gray 1px solid;BACKGROUND:#9BCDFF}
+#hdmmainxx{margin-top:7px;line-height:18px;margin-left:25px}
+/*小区列表*/
+#xzqyxh{margin:5px 10px;clear:both;font-size:14px;line-height:180%;font-weight:bold;border-bottom:1px solid #cccccc}
+#xqlb1xh{margin-left:10px}
+#xqlb1xh li{float:left;padding-left:5px;line-height:180%;width:128px;padding-bottom:3px}
+#xqxh{height:60px;width:116px;float:left;margin-right:15px;margin-bottom:10px;border:1px solid #82BDD7}
+#xqxh li{float:left;margin-top:20px;background:#F0F0F0;width:116px;text-align:center}
+/*房源信息*/
+#fyxxbt{background:url(/images/fyxxbt.gif) no-repeat;height:30px;line-height:230%;font-size:14px;color:#FF6600;padding-left:15px}
+#fyxxtb2 table{margin:7px;width:97%}
+#fyxxtb2 td{padding-left:5px;line-height:180%}
+.tb21{background:#FFF7EE}
+.tb22{color:#0062C4;width:90px}
+.fyxxtp{border:1px solid #E6E6E6;margin:1px}
+/*房产列表*/
+#fcxxbg{width:802px;border-top:#82BDD7 1px solid;border-left:#82BDD7 1px solid}
+#fcxxbg td{padding:5px;border-right:#82BDD7 1px solid;border-bottom:#82BDD7 1px solid; text-align:center}
+.fcxxtr{background-image:url(/images/title_bg.gif)}
+.zfxxym{margin:9px;font-size:14px;font-weight:bold}
+#fyms{font-size:14px;margin:6px;line-height:150%}
+/*小区信息*/
+#xxygg{margin:5px}
+#xxbtxh{width:768px;height:33px;background:url(/images/xxbtbg.gif) no-repeat;padding-left:34px;color:#FFF;line-height:280%}
+#xxbtxh h1{font-size:14px}
+#xxztxh{border:1px solid #0077B0;padding:10px;width:780px;line-height:180%}
+#xxczxh{background:url(/images/title_bg.gif) repeat-x;line-height:220%}
+#xqxxlb{background:url(/images/xqxxlb.gif) no-repeat;font-size:14px;color:#fff;height:30px;padding-left:15px}
+#xqxxlb1{border:1px solid #0077B0}
+.xxlbbt{width:120px;padding:7px;border-bottom:dotted 1px #9BCDFF}
+.xxlbbt1{border-bottom:dotted 1px #9BCDFF;border-left:1px solid #9bcdff;border-right:1px solid #9bcdff}
+.xxlbbt img{width:116px;border:2px outset #CCC}
+.xxlbcz{border-bottom:dotted 1px #9BCDFF;width:100px}
+.xxlbcz li{padding:2px}
+.lbbt{padding-left:5px;font-size:14px;font-weight:bold}
+.lbjj{padding-left:5px;color:#999;line-height:150%}
+.lbsj{padding-left:5px;color:#79BCFF}
+.lbsj a{color:#79BCFF}
+.shot{line-height:200%;padding:20px}
+.shot a{font-size:14px;font-weight:bold}
+.header{background:url(/images/title_bg.gif)}
