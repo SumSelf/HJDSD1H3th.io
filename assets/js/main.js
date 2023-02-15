@@ -161,7 +161,7 @@ var tempData = {"1-1-101":"119.26", "1-1-102":"146.58", "1-1-103":"159.3", "1-1-
 	console.log(locaStr);
 	objS = document.getElementById("area");
 	console.log(( parseFloat(tempData[locaStr]) + 22.22).toString());
-	objS.innerHTML = ( parseFloat(tempData[locaStr]) + 22.22).toString();
+	objS.innerHTML = ( parseFloat(tempData[locaStr]) + 22.22).toString()
 	
 	
 	
