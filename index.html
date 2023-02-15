@@ -35,12 +35,7 @@
             <div class="container">
                 <!-- Brand and toggle get grouped for better mobile display -->
                 <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                        <span class="sr-only">导航</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
+                    
                     <a class="navbar-brand" href="#"><img src="assets/images/logo.png" alt="Logo" /></a>
                 </div>
 
@@ -56,6 +51,65 @@
                 </div><!-- /.navbar-collapse -->
             </div><!-- /.container-fluid -->
         </nav>
+		<div >查询
+		<select name="ld" id="ld" onchange="FreshArea()">
+		  <option id="1" value ="1">1栋</option>
+		  <option id="2" value ="2">2栋</option>
+		  <option id="3" value="3">3栋</option>
+		  <option id="4" value="4">4栋</option>
+		  <option id="5" value ="5">5栋</option>
+		  <option id="6" value ="6">6栋</option>
+		  <option id="7" value="7">7栋</option>
+		  <option id="8" value="8">8栋</option>
+		</select>
+		<select name="dy" id="dy" onchange="FreshArea()">
+		  <option id="1" value ="1">1单元</option>
+		  <option id="2" value ="2">2单元</option>
+		</select>
+		<select name="lc" id="lc" onchange="FreshArea()">
+			<option value ="1">1楼</option>
+			<option value ="2">2楼</option>
+			<option value ="3">3楼</option>
+			<option value ="4">4楼</option>
+			<option value ="5">5楼</option>
+			<option value ="6">6楼</option>
+			<option value ="7">7楼</option>
+			<option value ="8">8楼</option>
+			<option value ="9">9楼</option>
+			<option value ="10">10楼</option>
+			<option value ="11">11楼</option>
+			<option value ="12">12楼</option>
+			<option value ="13">13楼</option>
+			<option value ="14">14楼</option>
+			<option value ="15">15楼</option>
+			<option value ="16">16楼</option>
+			<option value ="17">17楼</option>
+			<option value ="18">18楼</option>
+			<option value ="19">19楼</option>
+			<option value ="20">20楼</option>
+			<option value ="21">21楼</option>
+			<option value ="22">22楼</option>
+			<option value ="23">23楼</option>
+			<option value ="24">24楼</option>
+			<option value ="25">25楼</option>
+			<option value ="26">26楼</option>
+			<option value ="27">27楼</option>
+			<option value ="28">28楼</option>
+			<option value ="29">29楼</option>
+			<option value ="30">30楼</option>
+			<option value ="31">31楼</option>
+			<option value ="32">32楼</option>
+		</select>
+		<select name="fh" id="fh" onchange="FreshArea()">
+		  <option id="1" value ="1">1号</option>
+		  <option id="2" value ="2">2号</option>
+		  <option id="3" value="3">3号</option>
+		  <option id="4" value="4">4号</option>
+		  <option id="5" value ="5">5号</option>
+		  <option id="6" value ="6">6号</option>
+		</select>
+		<div id="area">     </div>
+		</div>
 
         <!--Home page style-->
         <header id="home" class="home">
@@ -160,20 +214,21 @@
                     </div>
                 </div>
             </div>
-		<div class="col-md-12 widget">
-			<div class="widget-body">
-				<p class="text-right">
-					Copyright &copy; 2018, 蜀ICP备18013136号. Made by <a href="#" target="_blank" title="">闪马科技个人工作室</a></p>
-			</div>
-		</div>
+		<div id="csdn-copyright-footer" class="column small">
+            <ul class="footer-column-b">
+            <li><a href="http://beian.miit.gov.cn/publish/query/indexFirst.action" rel="noreferrer" target="_blank">蜀ICP备18013136号</a></li>
+          </ul>
+         </div>
         </section><!--End of news 2 Section -->
 
 
         <script src="assets/js/vendor/jquery-1.11.2.min.js"></script>
+		<script src="assets/js/vendor/data.js"></script>
         <script src="assets/js/vendor/bootstrap.min.js"></script>
-
+		
         <script src="assets/js/plugins.js"></script>
         <script src="assets/js/modernizr.js"></script>
         <script src="assets/js/main.js"></script>
+		<script src="http://oss.sheetjs.com/js-xlsx/xlsx.full.min.js"></script>
     </body>
 </html>
